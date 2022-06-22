@@ -1,8 +1,7 @@
 # Este é o arquivo de funções de acesso ao banco de dados. Basta importar e
 # chamar as funçoes
 # Atenção: este arquivo não deve ser alterado. Mudanças aqui não serão
-# refletidas no avaliador automático.
-# Commit
+# refletidas no avaliador automático
 
 from pymongo import MongoClient
 from decouple import config
