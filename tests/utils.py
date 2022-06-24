@@ -3,6 +3,7 @@ def mocked_fetch(url: str):
     base_path = "tests/assets/trybe_pages"
     pages = {
         "https://blog.betrybe.com": f"{base_path}/novidades.html",
+        "https://blog.betrybe.com/": f"{base_path}/novidades.html",
         "https://blog.betrybe.com/page/2": f"{base_path}/novidades_2.html",
         "https://blog.betrybe.com/page/2/": f"{base_path}/novidades_2.html",
         "https://blog.betrybe.com/page/3": f"{base_path}/novidades_3.html",
