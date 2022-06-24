@@ -23,7 +23,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   Você fará um projeto que tem como principal objetivo fazer consultas em notícias sobre tecnologia.
 
-  As notícias podem ser obtidas através da raspagem do [_blog da Trybe_](https://blog.betrybe.com/).
+  As notícias podem ser obtidas através da raspagem do [_blog da Trybe_](https://blog.betrybe.com).
 
   <strong>🚵 Habilidades a serem trabalhadas:</strong>
   <ul>
@@ -52,9 +52,9 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:tryber/sd-014-b-tech-news.git`
+  - Use o comando: `git clone git@github.com:tryber/sd-014-a-tech-news.git`
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-014-b-tech-news`
+    - `cd sd-014-a-tech-news`
 
   2. Crie o ambiente virtual para o projeto
 
@@ -267,7 +267,7 @@ python3 -m pytest
 
 <details>
   <summary><strong>🏃🏾 Executando o Projeto</strong></summary>
-  As notícias a serem raspadas estarão disponíveis no _Blog da Trybe_: https://blog.betrybe.com/.
+  As notícias a serem raspadas estarão disponíveis no _Blog da Trybe_: https://blog.betrybe.com.
   Essas notícias devem ser salvas no banco de dados utilizando as funções python que já vêm prontas no módulo `database.py`
 
   <strong>MongoDB</strong>
@@ -302,7 +302,7 @@ python3 -m pytest
 
     - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
 
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-014-b`.
+    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-014-a`.
 
   Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
@@ -395,7 +395,7 @@ Alguns cuidados deverão ser tomados: como a nossa função poderá ser utilizad
 ## 2 - Crie a função `scrape_novidades`
 local: `tech_news/scraper.py`
 
-Para conseguirmos fazer o scrape da página de uma notícia, primeiro precisamos de links para várias páginas de notícias. Estes links estão contidos na página inicial do blog da Trybe (https://blog.betrybe.com/). 
+Para conseguirmos fazer o scrape da página de uma notícia, primeiro precisamos de links para várias páginas de notícias. Estes links estão contidos na página inicial do blog da Trybe (https://blog.betrybe.com). 
 
 Esta função fará o scrape da página Novidades para obter as URLs das páginas de notícias. Vamos utilizar as ferramentas que aprendemos no curso, como a biblioteca Parsel, para obter os dados que queremos de cada página.
 
@@ -438,7 +438,7 @@ local: `tech_news/scraper.py`
 
 Para buscar mais notícias, precisaremos fazer a paginação, e para isto, vamos precisar do link da próxima página. Esta função será responsável por fazer o scrape deste link.
 
-- A função deve receber como parâmetro uma `string` contendo o conteúdo HTML da página de novidades (https://blog.betrybe.com/)
+- A função deve receber como parâmetro uma `string` contendo o conteúdo HTML da página de novidades (https://blog.betrybe.com)
 - A função deve fazer o scrape deste HTML para obter a URL da próxima página.
 - A função deve retornar a URL obtida.
 - Caso não encontre o link da próxima página, a função deve retornar `None`
