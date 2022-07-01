@@ -49,7 +49,9 @@ def search_by_date(date):
 
 # Requisito 8
 def search_by_tag(tag):
-    search = search_news({"tag": {"$regex": tag, "$options": "i"}})
+    search = search_news(
+        {"tag": {"elemMatch": {"$regex": tag, "$options": "i"}}}
+    )
     search_list = []
     for news in search:
         search_list.append((news["tag"], news["url"]))
