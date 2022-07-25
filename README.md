@@ -2,7 +2,7 @@
 
 ---
 
-## 👨‍💻 O que deverá foi desenvolvido
+## 👨‍💻 O que foi desenvolvido
 
   Eu criei um projeto que tem como principal objetivo fazer consultas em notícias sobre tecnologia.
 
